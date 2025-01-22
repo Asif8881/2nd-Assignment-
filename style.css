@@ -1,4 +1,4 @@
-.work-sans-none {
+.work-sans-none{
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -79,6 +79,11 @@ color: #FEA301;
   
  
 }
+.icon{
+  height: 30px;
+  width: 40px;
+  display: none;
+}
 
 .Main-class{
   background-image: url(assets/bg.png);
@@ -87,9 +92,8 @@ color: #FEA301;
   text-align: center;
   gap: 50px;
   margin: 50px 60px;
-
-
 }
+
 .main1{
   padding: 30px;
   border-radius: 18px;
@@ -152,7 +156,9 @@ color: #FEA301;
   margin-top: 30px;
   font-size: 30px;
 }
-
+.pic-container{
+  display: none;
+}
 /*Responsive Media quert */
 
 @media screen and (max-width: 576px){
@@ -162,6 +168,13 @@ color: #FEA301;
   }
   .Nav-links{
     display: none;
+  }
+  .pr-button{
+    display: none;
+  }
+  .icon{
+    display: flex;
+    margin-top: 8px;
   }
   
 }
