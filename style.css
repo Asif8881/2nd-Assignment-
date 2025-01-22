@@ -159,6 +159,35 @@ color: #FEA301;
 .pic-container{
   display: none;
 }
+.aline{
+  text-align: center;
+}
+.fooder-title {
+  padding: 30px;
+  margin: 60px;
+  display: grid;
+  
+  text-align: left;
+}
+.aline{
+  text-align: left;
+  margin-right: 100px;
+}
+.h4{
+  font-size: 20px;
+}
+.fooder-container{
+  background-color: rgb(1, 172, 253);
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  display: flex;
+ }
+
+
+
+
 /*Responsive Media quert */
 
 @media screen and (max-width: 576px){
